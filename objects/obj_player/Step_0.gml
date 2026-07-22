@@ -19,3 +19,8 @@ if (!place_meeting(x, y + move_y, wall_tilemap))
 {
     y += move_y;
 }
+
+// Exit Activated
+if((place_meeting(x, y, obj_sign)) && complete){
+	room_goto(Room2);
+}
