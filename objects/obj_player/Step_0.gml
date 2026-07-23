@@ -22,5 +22,5 @@ if (!place_meeting(x, y + move_y, wall_tilemap))
 
 // Exit Activated
 if((place_meeting(x, y, obj_sign)) && complete){
-	room_goto(Room2);
+	room_goto(rm_turkey);
 }
