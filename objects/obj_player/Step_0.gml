@@ -21,11 +21,3 @@ if (!place_meeting(x, y + move_y, wall_tilemap))
 {
     y += move_y;
 }
-
-if(place_meeting(x + move_x, y, obj_exit)){
-	show_debug_message("x sign player coll");
-}
-
-if(place_meeting(x, y + move_y, obj_exit)){
-	show_debug_message("y sign player coll")
-}
