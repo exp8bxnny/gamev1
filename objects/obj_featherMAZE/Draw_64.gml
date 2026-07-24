@@ -7,5 +7,9 @@ if(show_text){
 	draw_set_font(font_arial20);
 	draw_set_color(c_black);
 	draw_set_halign(fa_left);
-	draw_text(90, 350, displayText[text_index]);
+	draw_text(90, 350, "feather!");
+	
+	if(keyboard_check_pressed(ord("C"))){
+		instance_destroy();
+	}
 }
