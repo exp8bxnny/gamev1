@@ -20,7 +20,10 @@ if (!place_meeting(x, y + move_y, wall_tilemap))
     y += move_y;
 }
 
-// Exit Activated
-if((place_meeting(x, y, obj_sign)) && complete){
-	room_goto(rm_turkey);
+if(place_meeting(x + move_x, y, obj_sign)){
+	show_debug_message("x sign player coll");
+}
+
+if(place_meeting(x, y + move_y, obj_sign)){
+	show_debug_message("y sign player coll")
 }
