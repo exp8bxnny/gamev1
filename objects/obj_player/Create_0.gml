@@ -1,4 +1,4 @@
-wall_tilemap = layer_tilemap_get_id("Walls");
+//wall_tilemap = layer_tilemap_get_id("Walls");
 move_speed = 3;
 
 // checks if this room's feather is collected
