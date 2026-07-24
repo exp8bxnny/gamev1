@@ -53,6 +53,7 @@
     {"id":{"name":"spr_elyse2","path":"sprites/spr_elyse2/spr_elyse2.yy",},},
     {"id":{"name":"spr_exit1","path":"sprites/spr_exit1/spr_exit1.yy",},},
     {"id":{"name":"spr_feather","path":"sprites/spr_feather/spr_feather.yy",},},
+    {"id":{"name":"spr_news_poster","path":"sprites/spr_news_poster/spr_news_poster.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},},
     {"id":{"name":"spr_sp1","path":"sprites/spr_sp1/spr_sp1.yy",},},
@@ -74,8 +75,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_s1_2","path":"rooms/rm_s1_2/rm_s1_2.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
+    {"roomId":{"name":"rm_s1_2","path":"rooms/rm_s1_2/rm_s1_2.yy",},},
     {"roomId":{"name":"rm_s3","path":"rooms/rm_s3/rm_s3.yy",},},
     {"roomId":{"name":"rm_turkey","path":"rooms/rm_turkey/rm_turkey.yy",},},
   ],
