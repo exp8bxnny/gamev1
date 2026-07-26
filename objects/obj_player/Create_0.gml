@@ -3,4 +3,5 @@ move_speed = 3;
 
 // checks if this room's feather is collected
 // player cannot move on to next room until true
-complete = false; 
+s1Done = false;
+mazeDone = false;

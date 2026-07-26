@@ -1,6 +1,5 @@
 if(show_text){
 	//draw_set_halign(fa_center);
-	displayText = "woah mt. idk!"
 	draw_set_valign(fa_bottom);
 	draw_set_color(c_white);
 	draw_rectangle(70, 300, 910, 520, false);
@@ -8,9 +7,5 @@ if(show_text){
 	draw_set_font(font_arial20);
 	draw_set_color(c_black);
 	draw_set_halign(fa_left);
-	draw_text(90, 350, displayText);
-	
-	if(keyboard_check_pressed(ord("C"))){
-		show_text = false;
-	}
+	draw_text(90, 350, displayText[text_index]);
 }
