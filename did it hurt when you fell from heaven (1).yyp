@@ -29,6 +29,7 @@
   "resources":[
     {"id":{"name":"font_arial20","path":"fonts/font_arial20/font_arial20.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
+    {"id":{"name":"obj_catbattle_dialogue","path":"objects/obj_catbattle_dialogue/obj_catbattle_dialogue.yy",},},
     {"id":{"name":"obj_elyse","path":"objects/obj_elyse/obj_elyse.yy",},},
     {"id":{"name":"obj_elysedetect","path":"objects/obj_elysedetect/obj_elysedetect.yy",},},
     {"id":{"name":"obj_exit1","path":"objects/obj_exit1/obj_exit1.yy",},},
