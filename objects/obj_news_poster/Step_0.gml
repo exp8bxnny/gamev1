@@ -1,4 +1,4 @@
-if(keyboard_check_pressed(ord("C"))){
+if(keyboard_check_pressed(ord("Z"))){
 	if(text_index < array_length(displayText) - 1){
 		text_index++;
 	} else {

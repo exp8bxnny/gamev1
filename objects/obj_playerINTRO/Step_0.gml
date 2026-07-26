@@ -14,3 +14,12 @@ if(x <= 0){
 } else {
 	x+=move_x;
 }
+
+// Sprite change for movement
+if(move_x > 0){
+	sprite_index = spr_playerRight;
+} else if(move_x < 0){
+	sprite_index = spr_playerLeft;
+} else {
+	sprite_index = spr_playerFront;
+}
