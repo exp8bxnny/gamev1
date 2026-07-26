@@ -1,9 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_elysedetect",
-  "eventList":[],
+  "%Name":"obj_feather1",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_elysedetect",
+  "name":"obj_feather1",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -28,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_elysedetect",
-    "path":"sprites/spr_elysedetect/spr_elysedetect.yy",
+    "name":"spr_feather1",
+    "path":"sprites/spr_feather1/spr_feather1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
