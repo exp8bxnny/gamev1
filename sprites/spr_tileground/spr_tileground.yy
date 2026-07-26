@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"sprites",
-    "path":"folders/sprites.yy",
+    "name":"did it hurt when you fell from heaven (1)",
+    "path":"did it hurt when you fell from heaven (1).yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
