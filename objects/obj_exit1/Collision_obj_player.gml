@@ -1,3 +1,3 @@
 if(obj_player.complete){
-	room_goto(rm_s3);
+	room_goto_next();
 }
