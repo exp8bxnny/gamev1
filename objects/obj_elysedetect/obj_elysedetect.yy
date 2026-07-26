@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_elysedetect",
-    "path":"sprites/spr_elysedetect/spr_elysedetect.yy",
+    "name":"spr_elyse1",
+    "path":"sprites/spr_elyse1/spr_elyse1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

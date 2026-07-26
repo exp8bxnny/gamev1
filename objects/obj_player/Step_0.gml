@@ -21,3 +21,14 @@ if (!place_meeting(x, y + move_y, wall_tilemap))
 {
     y += move_y;
 }
+
+// Sprite change for movement
+if(move_x > 0){
+	sprite_index = spr_playerRight;
+} else if(move_x < 0){
+	sprite_index = spr_playerLeft;
+} else if (move_y < 0){
+	sprite_index = spr_playerBack;
+} else {
+	sprite_index = spr_playerFront;
+}

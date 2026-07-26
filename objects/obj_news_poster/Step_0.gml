@@ -3,6 +3,6 @@ if(keyboard_check_pressed(ord("C"))){
 		text_index++;
 	} else {
 		show_text = false;
-		room_goto(rm_s1);
+		room_goto(rm_s2);
 	}
 }
