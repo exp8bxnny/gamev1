@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_elysedetect",
+  "%Name":"puzzle_button",
   "eventList":[],
   "managed":true,
-  "name":"obj_elysedetect",
+  "name":"puzzle_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"did it hurt when you fell from heaven (1)",
+    "path":"did it hurt when you fell from heaven (1).yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_elyse1",
-    "path":"sprites/spr_elyse1/spr_elyse1.yy",
+    "name":"spr_puzzle_button",
+    "path":"sprites/spr_puzzle_button/spr_puzzle_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
