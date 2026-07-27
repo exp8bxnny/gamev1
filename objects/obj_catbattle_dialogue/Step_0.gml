@@ -49,7 +49,7 @@ else if (battle_state == "attack")
         var distance_from_middle = abs(attack_position - 0.5);
 
         // 100 damage in the exact center, less toward the edges
-        damage = round(30 * (1 - distance_from_middle * 2));
+        damage = round(50 * (1 - distance_from_middle * 2));
         damage = max(0, damage);
 		enemy_hp -= damage;
 		enemy_hp = max(0, enemy_hp);
@@ -128,6 +128,7 @@ else if (battle_state == "result")
             dialogue_finished = false;
             battle_state = "victory";
             input_delay = 5;
+			room_goto(rm_s2_e1end);
         }
         }
     }
@@ -299,7 +300,7 @@ else if (battle_state == "victory")
             global.cat_defeated = true;
 
             // Return to the overworld
-            room_goto(rm_s1_2);
+            room_goto(rm_s2_e1end);
         }
     }
 }

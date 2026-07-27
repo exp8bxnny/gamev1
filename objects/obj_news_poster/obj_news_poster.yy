@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_feather",
+  "%Name":"obj_news_poster",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_feather",
+  "name":"obj_news_poster",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_feather",
-    "path":"sprites/spr_feather/spr_feather.yy",
+    "name":"spr_news_poster",
+    "path":"sprites/spr_news_poster/spr_news_poster.yy",
   },
   "spriteMaskId":null,
   "visible":true,
