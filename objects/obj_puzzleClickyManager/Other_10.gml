@@ -1,6 +1,5 @@
 if (current_ring < 3) {
     var active_ring = rings[current_ring];
-
     var diff = abs(angle_difference(active_ring.image_angle, active_ring.target_angle));
 
 
