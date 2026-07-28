@@ -44,3 +44,6 @@ hurt_timer = 0;
 
 player_name = "YOU";
 enemy_name = "CAT";
+
+// Elyse sprite
+elyse_alpha = 1;

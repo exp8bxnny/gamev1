@@ -14,6 +14,9 @@ var enemy_right = gui_width - 30;
 var enemy_left = enemy_right - health_width;
 var enemy_percentage = enemy_hp / enemy_max_hp;
 
+// elyse sprite
+draw_sprite_ext(spr_elyseEVIL, -1, 400, 100, 3, 3, 0, -1, elyse_alpha);
+
 draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
 draw_set_color(c_white);

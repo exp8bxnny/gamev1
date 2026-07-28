@@ -1,5 +1,6 @@
-show_text = false;
+show_text = true;
+show_debug_message("newsposter created");
 
 text_index = 0;
-displayText = ["(An old, wooden sign. The faded words spell out 'Mt. Shari'.)",
-			   "(Trying to brush off the dust gave you a splinter. Ow.)"];
+displayText = ["(cat wow)",
+			   "(missing oh no)"];

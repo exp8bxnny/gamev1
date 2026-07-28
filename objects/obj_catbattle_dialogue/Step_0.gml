@@ -4,6 +4,13 @@ if (input_delay > 0)
     input_delay--;
 }
 
+// Elyse sprite transparency
+if(battle_state == "cat_attack"){
+	elyse_alpha = 0;
+} else {
+	elyse_alpha = 1;
+}
+
 // DIALOGUE STATE
 if (battle_state == "dialogue")
 {
@@ -48,7 +55,7 @@ else if (battle_state == "attack")
         // Distance from the center
         var distance_from_middle = abs(attack_position - 0.5);
 
-        // 100 damage in the exact center, less toward the edges
+        // 30 damage in the exact center, less toward the edges
         damage = round(30 * (1 - distance_from_middle * 2));
         damage = max(0, damage);
 		enemy_hp -= damage;
@@ -104,38 +111,38 @@ else if (battle_state == "result")
         else
         {
             // Continue fighting if the enemy still has health
-		if (enemy_hp > 0)
-		{
-		    // Begin the cat's turn
-		    battle_state = "cat_attack";
+			if (enemy_hp > 0)
+			{
+			    // Begin the cat's turn
+			    battle_state = "cat_attack";
 
-		    cat_turn_timer = cat_turn_length;
-		    dodge_player_x = 0.5;
+			    cat_turn_timer = cat_turn_length;
+			    dodge_player_x = 0.5;
 
-		    cat_attack_x = [];
-		    cat_attack_y = [];
+			    cat_attack_x = [];
+			    cat_attack_y = [];
 
-		    attack_spawn_timer = 0;
-		    hurt_timer = 0;
+			    attack_spawn_timer = 0;
+			    hurt_timer = 0;
 
-		    input_delay = 5;
-		}
-        else
-        {
-            // Enemy has been defeated
-			dialogue_text = "* You defeated the cat!";
-            visible_characters = 0;
-            dialogue_finished = false;
-            battle_state = "victory";
-            input_delay = 5;
-        }
+			    input_delay = 5;
+			}
+	        else
+	        {
+	            // Enemy has been defeated
+				dialogue_text = "* You defeated the cat!";
+	            visible_characters = 0;
+	            dialogue_finished = false;
+	            battle_state = "victory";
+	            input_delay = 5;
+	        }
         }
     }
 }
 else if (battle_state == "cat_attack")
 {
+	
     var seconds = delta_time / 1000000;
-
     cat_turn_timer -= seconds;
 
     // Temporary protection after getting hit
@@ -299,7 +306,7 @@ else if (battle_state == "victory")
             global.cat_defeated = true;
 
             // Return to the overworld
-            room_goto(rm_s1_2);
+            room_goto(rm_s2_e1end);
         }
     }
 }

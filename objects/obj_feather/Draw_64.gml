@@ -8,7 +8,8 @@ if(show_text){
 	draw_set_halign(fa_left);
 	draw_text(90, 350, "feather!");
 
-	if(keyboard_check_pressed(ord("C"))){
-		instance_destroy();
+	if(keyboard_check_pressed(ord("Z"))){
+		global.featherf1Collected = true;
+		global.textf1Done = true;
 	}
 }
