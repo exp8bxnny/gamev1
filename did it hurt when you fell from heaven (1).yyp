@@ -118,6 +118,8 @@
     {"roomId":{"name":"rm_s3","path":"rooms/rm_s3/rm_s3.yy",},},
     {"roomId":{"name":"rm_s3_maze","path":"rooms/rm_s3_maze/rm_s3_maze.yy",},},
     {"roomId":{"name":"rm_turkey","path":"rooms/rm_turkey/rm_turkey.yy",},},
+    {"roomId":{"name":"rm_maze","path":"rooms/rm_maze/rm_maze.yy",},},
+    {"roomId":{"name":"rm_amongus","path":"rooms/rm_amongus/rm_amongus.yy",},},
     {"roomId":{"name":"rm_s2_f1","path":"rooms/rm_s2_f1/rm_s2_f1.yy",},},
   ],
   "templateType":"game",
