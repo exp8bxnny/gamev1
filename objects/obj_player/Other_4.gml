@@ -11,11 +11,11 @@ if (room == rm_s2_e1end) {
     visible = true;
 }
 
-if(room == rm_s3_maze){
+if(room == rm_s3_f2_maze){
 	wall_tilemap = obj_maze;
 }
 
-if(room != rm_s3_maze){
+if(room != rm_s3_f2_maze){
 	x = 50;
 	y = 50;
 }

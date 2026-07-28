@@ -17,8 +17,8 @@
   ],
   "name":"rm_s2_e1battle",
   "parent":{
-    "name":"rooms",
-    "path":"folders/rooms.yy",
+    "name":"room 2",
+    "path":"folders/rooms/room 2.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
