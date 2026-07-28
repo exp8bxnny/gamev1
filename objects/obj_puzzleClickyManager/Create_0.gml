@@ -1,8 +1,8 @@
 current_ring = 0;
 
 for (var i = 0; i < 3; i++) {
-    rings[i] = instance_find(puzzle_ring, i);
-    targets[i] = instance_find(puzzle_target, i);
+    rings[i] = instance_find(obj_puzzleRing, i);
+    targets[i] = instance_find(obj_puzzleTarget, i);
 }
 
 array_sort(rings, function(a, b) {

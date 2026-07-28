@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"puzzle_ring",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_puzzleButton",
+  "eventList":[],
   "managed":true,
-  "name":"puzzle_ring",
+  "name":"obj_puzzleButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"did it hurt when you fell from heaven (1)",
-    "path":"did it hurt when you fell from heaven (1).yyp",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_puzzle_ring",
-    "path":"sprites/spr_puzzle_ring/spr_puzzle_ring.yy",
+    "name":"spr_puzzleButton",
+    "path":"sprites/spr_puzzleButton/spr_puzzleButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

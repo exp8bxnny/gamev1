@@ -1,4 +1,4 @@
 show_debug_message(">>> BUTTON WAS CLICKED <<<");
-with (clicky_manager) {
+with (obj_puzzleClickyManager) {
     event_user(0);
 }

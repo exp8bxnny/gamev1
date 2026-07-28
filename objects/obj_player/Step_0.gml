@@ -1,5 +1,3 @@
-wall_tilemap = layer_tilemap_get_id("Walls");
-
 var move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
 var move_y = keyboard_check(vk_down) - keyboard_check(vk_up);
 
@@ -14,12 +12,16 @@ if (move_x != 0)
 if (!place_meeting(x + move_x, y, wall_tilemap))
 {
     x += move_x;
+} else {
+	move_x *= -1;
 }
 
 // Vertical collision
 if (!place_meeting(x, y + move_y, wall_tilemap))
 {
     y += move_y;
+} else {
+	move_y *= -1;
 }
 
 // Sprite change for movement
