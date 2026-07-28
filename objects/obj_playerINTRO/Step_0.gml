@@ -3,7 +3,7 @@ wall_tilemap = layer_tilemap_get_id("Walls");
 var move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
 
 if(keyboard_check(vk_shift)){
-	move_x *= 3;
+	move_x *= 7;
 }
 
 // Horizontal collision

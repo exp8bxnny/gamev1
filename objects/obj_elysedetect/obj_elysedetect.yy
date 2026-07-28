@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_elysedetect",
-    "path":"sprites/spr_elysedetect/spr_elysedetect.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

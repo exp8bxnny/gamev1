@@ -1,4 +1,3 @@
-
 if (current_ring < 3) {
     var active_ring = rings[current_ring];
 
