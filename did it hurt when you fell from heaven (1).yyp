@@ -11,6 +11,7 @@
   "defaultScriptType":0,
   "Folders":[
     {"$GMFolder":"","%Name":"fonts","folderPath":"folders/fonts.yy","name":"fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sounds","folderPath":"folders/sounds.yy","name":"sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sliding puzzle","folderPath":"folders/objects/sliding puzzle.yy","name":"sliding puzzle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -29,6 +30,10 @@
   "resources":[
     {"id":{"name":"font_arial20","path":"fonts/font_arial20/font_arial20.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"clicky_manager","path":"objects/clicky_manager/clicky_manager.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"obj_catbattle_dialogue","path":"objects/obj_catbattle_dialogue/obj_catbattle_dialogue.yy",},},
     {"id":{"name":"obj_elyse","path":"objects/obj_elyse/obj_elyse.yy",},},
     {"id":{"name":"obj_elysedetect","path":"objects/obj_elysedetect/obj_elysedetect.yy",},},
@@ -39,8 +44,13 @@
     {"id":{"name":"obj_featherMAZE","path":"objects/obj_featherMAZE/obj_featherMAZE.yy",},},
     {"id":{"name":"obj_maze","path":"objects/obj_maze/obj_maze.yy",},},
     {"id":{"name":"obj_mtsign","path":"objects/obj_mtsign/obj_mtsign.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"obj_news_poster","path":"objects/obj_news_poster/obj_news_poster.yy",},},
+=======
+    {"id":{"name":"obj_mtsign1","path":"objects/obj_mtsign1/obj_mtsign1.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},},
     {"id":{"name":"obj_playerINTRO","path":"objects/obj_playerINTRO/obj_playerINTRO.yy",},},
     {"id":{"name":"obj_puzzleButton","path":"objects/obj_puzzleButton/obj_puzzleButton.yy",},},
     {"id":{"name":"obj_puzzleClickyManager","path":"objects/obj_puzzleClickyManager/obj_puzzleClickyManager.yy",},},
@@ -66,10 +76,19 @@
     {"id":{"name":"rm_s3","path":"rooms/rm_s3/rm_s3.yy",},},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"id":{"name":"rm_turkey","path":"rooms/rm_turkey/rm_turkey.yy",},},
+    {"id":{"name":"sound_feather_pickup","path":"sounds/sound_feather_pickup/sound_feather_pickup.yy",},},
+    {"id":{"name":"sound_running_in_grass","path":"sounds/sound_running_in_grass/sound_running_in_grass.yy",},},
+    {"id":{"name":"sound_running_through_maze","path":"sounds/sound_running_through_maze/sound_running_through_maze.yy",},},
+    {"id":{"name":"sound_sliding_puzzle","path":"sounds/sound_sliding_puzzle/sound_sliding_puzzle.yy",},},
     {"id":{"name":"overlay_sprite","path":"sprites/overlay_sprite/overlay_sprite.yy",},},
     {"id":{"name":"spr_elyse1","path":"sprites/spr_elyse1/spr_elyse1.yy",},},
     {"id":{"name":"spr_elyse2","path":"sprites/spr_elyse2/spr_elyse2.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_elyseEVIL","path":"sprites/spr_elyseEVIL/spr_elyseEVIL.yy",},},
+=======
+    {"id":{"name":"spr_elysedetect","path":"sprites/spr_elysedetect/spr_elysedetect.yy",},},
+    {"id":{"name":"spr_exit1_1","path":"sprites/spr_exit1_1/spr_exit1_1.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"spr_exit1","path":"sprites/spr_exit1/spr_exit1.yy",},},
     {"id":{"name":"spr_f1_1","path":"sprites/spr_f1_1/spr_f1_1.yy",},},
     {"id":{"name":"spr_f1_2","path":"sprites/spr_f1_2/spr_f1_2.yy",},},
@@ -80,15 +99,22 @@
     {"id":{"name":"spr_maze","path":"sprites/spr_maze/spr_maze.yy",},},
     {"id":{"name":"spr_news_poster","path":"sprites/spr_news_poster/spr_news_poster.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},
     {"id":{"name":"spr_playerBack","path":"sprites/spr_playerBack/spr_playerBack.yy",},},
     {"id":{"name":"spr_playerFront","path":"sprites/spr_playerFront/spr_playerFront.yy",},},
     {"id":{"name":"spr_playerLeft","path":"sprites/spr_playerLeft/spr_playerLeft.yy",},},
     {"id":{"name":"spr_playerRight","path":"sprites/spr_playerRight/spr_playerRight.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_puzzleButton","path":"sprites/spr_puzzleButton/spr_puzzleButton.yy",},},
     {"id":{"name":"spr_puzzleRing","path":"sprites/spr_puzzleRing/spr_puzzleRing.yy",},},
     {"id":{"name":"spr_puzzleTarget","path":"sprites/spr_puzzleTarget/spr_puzzleTarget.yy",},},
+=======
+    {"id":{"name":"spr_puzzle_button","path":"sprites/spr_puzzle_button/spr_puzzle_button.yy",},},
+    {"id":{"name":"spr_puzzle_ring","path":"sprites/spr_puzzle_ring/spr_puzzle_ring.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"spr_s1bg","path":"sprites/spr_s1bg/spr_s1bg.yy",},},
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},},
+    {"id":{"name":"spr_sign1","path":"sprites/spr_sign1/spr_sign1.yy",},},
     {"id":{"name":"spr_sp1","path":"sprites/spr_sp1/spr_sp1.yy",},},
     {"id":{"name":"spr_sp2","path":"sprites/spr_sp2/spr_sp2.yy",},},
     {"id":{"name":"spr_sp3","path":"sprites/spr_sp3/spr_sp3.yy",},},
@@ -102,6 +128,7 @@
     {"id":{"name":"spr_tilegrass","path":"sprites/spr_tilegrass/spr_tilegrass.yy",},},
     {"id":{"name":"spr_tileground","path":"sprites/spr_tileground/spr_tileground.yy",},},
     {"id":{"name":"spr_titlebg","path":"sprites/spr_titlebg/spr_titlebg.yy",},},
+    {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},},
     {"id":{"name":"grass","path":"tilesets/grass/grass.yy",},},
     {"id":{"name":"ground","path":"tilesets/ground/ground.yy",},},
     {"id":{"name":"ts_grass","path":"tilesets/ts_grass/ts_grass.yy",},},
