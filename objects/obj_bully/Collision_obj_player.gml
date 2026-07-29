@@ -1,0 +1,1 @@
+room_goto(rm_s3_e2battle);
