@@ -4,14 +4,11 @@ if(keyboard_check_pressed(ord("Z"))){
 	if(text_index < array_length(displayText)){
 		dialog.add(displayText[text_index]);
 		text_index++;
-
 	} else {
 		show_text = false;
 		obj_player.x = 3450;
 		obj_player.y = 4700;
 		room_goto(rm_s2_acc);
-		
-		//instance_destroy();
 	}
 }
 
