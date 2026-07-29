@@ -1,12 +1,9 @@
 current_ring = 0;
 
 for (var i = 0; i < 3; i++) {
-    rings[i] = instance_find(obj_puzzleKey, i);
+    rings[i] = instance_find(obj_puzzleRing, i);
+    targets[i] = instance_find(obj_puzzleTarget, i);
 }
-
-targets[0] = instance_find(obj_puzzleAngelStatue, 0);
-targets[1] = instance_find(obj_puzzleDevilStatue, 0);
-targets[2] = instance_find(obj_puzzleMoonStatue, 0);
 
 array_sort(rings, function(a, b) {
     return a.x - b.x;
