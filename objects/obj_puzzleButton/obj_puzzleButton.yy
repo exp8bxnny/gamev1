@@ -6,8 +6,8 @@
   "name":"obj_puzzleButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"did it hurt when you fell from heaven (1)",
+    "path":"did it hurt when you fell from heaven (1).yyp",
   },
   "parentObjectId":null,
   "persistent":false,

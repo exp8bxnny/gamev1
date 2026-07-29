@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_puzzleTarget",
+  "%Name":"obj_puzzleKey",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_puzzleTarget",
+  "name":"obj_puzzleKey",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"did it hurt when you fell from heaven (1)",
+    "path":"did it hurt when you fell from heaven (1).yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_puzzleTarget",
-    "path":"sprites/spr_puzzleTarget/spr_puzzleTarget.yy",
+    "name":"spr_puzzleKey",
+    "path":"sprites/spr_puzzleKey/spr_puzzleKey.yy",
   },
   "spriteMaskId":null,
   "visible":true,

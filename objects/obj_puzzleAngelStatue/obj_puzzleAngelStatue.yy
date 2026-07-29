@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_puzzleRing",
+  "%Name":"obj_puzzleAngelStatue",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_puzzleRing",
+  "name":"obj_puzzleAngelStatue",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"did it hurt when you fell from heaven (1)",
+    "path":"did it hurt when you fell from heaven (1).yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_statueParent",
+    "path":"objects/obj_statueParent/obj_statueParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_puzzleRing",
-    "path":"sprites/spr_puzzleRing/spr_puzzleRing.yy",
+    "name":"spr_puzzleAngelStatue",
+    "path":"sprites/spr_puzzleAngelStatue/spr_puzzleAngelStatue.yy",
   },
   "spriteMaskId":null,
   "visible":true,
