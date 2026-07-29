@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"DirtTileset",
-    "path":"sprites/DirtTileset/DirtTileset.yy",
+    "name":"DirtTileset48",
+    "path":"sprites/DirtTileset48/DirtTileset48.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

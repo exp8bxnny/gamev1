@@ -1,5 +1,5 @@
 if(!global.featherf1Collected){
-	show_text = true;
+	//show_text = true;
 	show_debug_message("player feather coll, text");
 }
 

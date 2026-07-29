@@ -8,6 +8,9 @@ if (move_x != 0)
     move_y = 0;
 }
 
+x = clamp(x, 0, room_width);
+y = clamp(y, 0, room_height-32);
+
 // Horizontal collision
 if (!place_meeting(x + move_x, y, wall_tilemap))
 {

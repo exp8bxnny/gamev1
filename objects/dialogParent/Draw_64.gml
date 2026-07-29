@@ -1,7 +1,7 @@
 if (showing_dialog == true) {
 	//show_debug_message("gui drawing");
 	var text_x = 220;
-	var text_y = 400;
+	var text_y = display_get_gui_height() - 165;
 	var border = 5;
 	var padding = 16;
 	var height = 768;
@@ -10,8 +10,8 @@ if (showing_dialog == true) {
 	//text_x = sprite_get_width(current_dialog.sprite) + (padding * 2);
 	
 	//draw_set_alpha(alpha);
-	var rect_x1 = 100
-	var rect_y1 = display_get_gui_height() - 150;
+	var rect_x1 = 100;
+	var rect_y1 = display_get_gui_height() - 170;
 	var rect_x2 = display_get_gui_width() - 100;
 	var rect_y2 = display_get_gui_height() - 20;
 	

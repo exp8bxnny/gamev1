@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"GrassTilesetOfficial",
-    "path":"sprites/GrassTilesetOfficial/GrassTilesetOfficial.yy",
+    "name":"GrassTilesetOfficial50",
+    "path":"sprites/GrassTilesetOfficial50/GrassTilesetOfficial50.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

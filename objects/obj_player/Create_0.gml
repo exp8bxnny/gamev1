@@ -10,3 +10,4 @@ global.textf1Done = false;
 global.featherf1Collected = false;
 
 global.cat_defeated = false;
+f1SceneDone = false;

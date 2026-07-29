@@ -6,11 +6,9 @@ if (showing_dialog == false) {
 		//showing_dialog = false;
 		return;
 	}
-	
 	current_dialog = dialog.pop();
 	showing_dialog = true;
-}
-else {
+} else {
 	if (keyboard_check_pressed(ord("Z"))) {
 		showing_dialog = false;
 //		alpha = 0;

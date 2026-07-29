@@ -5,6 +5,11 @@ if (instance_number(object_index) > 1) {
     exit;
 }
 
+if(room = rm_s2_f1){
+	f1SceneDone = true;
+	show_debug_message("f1scDone true");
+}
+
 if (room == rm_s2_e1end) {
     visible = false;
 } else {

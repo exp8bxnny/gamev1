@@ -37,7 +37,7 @@ cat_attack_y = [];
 
 attack_spawn_timer = 0;
 attack_spawn_delay = 0.1;
-attack_fall_speed = 0.8;
+attack_fall_speed = 1.5;
 
 // Brief protection after taking damage
 hurt_timer = 0;
