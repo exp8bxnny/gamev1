@@ -17,8 +17,8 @@
   ],
   "name":"rm_s2_e1end",
   "parent":{
-    "name":"room 2",
-    "path":"folders/rooms/room 2.yy",
+    "name":"rooms",
+    "path":"folders/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
