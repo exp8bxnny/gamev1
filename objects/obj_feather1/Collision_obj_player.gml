@@ -1,3 +1,8 @@
+if(keyboard_check_pressed(ord("Z"))){
+	global.featherf1Collected = true;
+	global.textf1Done = true;
+}
+
 if(!global.featherf1Collected){
 	//show_text = true;
 	show_debug_message("player feather coll, text");

@@ -8,9 +8,5 @@
 	draw_set_halign(fa_left);
 	draw_text(90, 350, "feather!");*/
 
-	if(keyboard_check_pressed(ord("Z"))){
-		show_debug_message("feather 1 z press detect");
-		global.featherf1Collected = true;
-		global.textf1Done = true;
-	}
+
 //}

@@ -10,11 +10,13 @@ if(room = rm_s2_f1){
 	show_debug_message("f1scDone true");
 }
 
-if (room == rm_s2_e1end) {
+if (room == rm_s2_e1end || room == rm_s2_e1battle) {
     visible = false;
 } else {
     visible = true;
 }
+
+
 
 if(room == rm_s3_f2_maze){
 	wall_tilemap = obj_maze;

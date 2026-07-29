@@ -1,4 +1,4 @@
-if(global.elyseDetected){
+if(elyseDetected){
 	sprite_index = spr_elyseRed;
 } else {
 	visible = true;
