@@ -8,4 +8,5 @@ mazeDone = false;
 
 global.textf1Done = false;
 global.featherf1Collected = false;
+
 global.cat_defeated = false;

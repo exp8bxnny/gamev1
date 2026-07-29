@@ -243,7 +243,16 @@ else if (battle_state == "cat_attack")
     // Flash when damaged
     if (hurt_timer <= 0 || floor(hurt_timer * 12) mod 2 == 0)
     {
-        draw_set_color(c_red);
+		//draw_sprite_ext(spr_playerFront);
+		if(keyboard_check(vk_left)){
+			draw_sprite(spr_playerLeft, -1, player_x - player_size, player_y - player_size);
+		} else if(keyboard_check(vk_right)){
+			draw_sprite(spr_playerRight, -1, player_x - player_size, player_y - player_size);
+		} else {
+			draw_sprite(spr_playerFront, -1, player_x - player_size, player_y - player_size);
+		}
+		
+        /*draw_set_color(c_green);
 
         draw_rectangle(
             player_x - player_size / 2,
@@ -251,7 +260,7 @@ else if (battle_state == "cat_attack")
             player_x + player_size / 2,
             player_y + player_size / 2,
             false
-        );
+        );*/
     }
 
     // Falling cat attacks
