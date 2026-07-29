@@ -1,5 +1,10 @@
-if(sprite_index == spr_elyse1){
-	sprite_index = spr_elyse2;
+if(global.elyseDetected){
+	sprite_index = spr_elyseRed;
 } else {
-	sprite_index = spr_elyse1
+	visible = true;
+	if(sprite_index == spr_elyse1){
+		sprite_index = spr_elyse2;
+	} else {
+		sprite_index = spr_elyse1
+	}
 }

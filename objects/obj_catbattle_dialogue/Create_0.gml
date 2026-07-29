@@ -44,3 +44,7 @@ hurt_timer = 0;
 
 player_name = "YOU";
 enemy_name = "CAT";
+
+// Elyse
+elyse_alpha = 1;
+global.cat_defeated = false;
