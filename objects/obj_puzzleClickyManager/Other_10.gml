@@ -1,6 +1,6 @@
+var active_key = rings[current_ring];
+
 if (current_ring < 3) {
-    var active_key = rings[current_ring];
-    
     var diff = abs(angle_difference(active_key.image_angle, active_key.target_angle));
     
     if (diff <= active_key.margin_of_error) {
@@ -9,13 +9,15 @@ if (current_ring < 3) {
         
         active_key.image_angle = active_key.target_angle; 
         
-        current_ring += 1;
+        current_ring++;
         
         if (current_ring < 3) {
-
             rings[current_ring].is_active = true;
         } else {
-
+			global.statueDone = true;
+			obj_player.x = 3543;
+			obj_player.y = 772;
+			room_goto(rm_s2_acc);
             show_debug_message("Statue Puzzle Complete!");
         }
         

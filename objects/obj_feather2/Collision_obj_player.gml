@@ -1,9 +1,10 @@
-if(!global.featherf1Collected){
-	//show_text = true;
-	show_debug_message("player feather coll, text");
+if(keyboard_check_pressed(ord("Z"))){
+	global.featherf2Collected = true;
 }
 
-if(global.featherf1Collected && global.textf1Done){
+if(global.featherf2Collected){
 	show_debug_message("both check done");
+	obj_player.x = 640;
+	obj_player.y = 8;
 	room_goto(rm_s3_f2_maze);
 }

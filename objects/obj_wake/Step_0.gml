@@ -6,13 +6,13 @@ if(keyboard_check_pressed(ord("Z"))){
 		text_index++;
 		sprite_index = spriteList[spriteIndex];
 		spriteIndex++;
-
 	} else {
 		show_text = false;
-		obj_player.x = 3280;
-		obj_player.y = 5100;
-		room_goto(rm_s2_acc);
+		room_goto(rm_s1);
 		
 		//instance_destroy();
 	}
+
+	global.featherf1Collected = true;
+	global.textf1Done = true;
 }

@@ -6,7 +6,6 @@ if(keyboard_check_pressed(ord("Z"))){
 		text_index++;
 		sprite_index = spriteList[spriteIndex];
 		spriteIndex++;
-
 	} else {
 		show_text = false;
 		obj_player.x = 3280;

@@ -1,1 +1,1 @@
-room_goto(rm_s1);
+room_goto(rm_wake);

@@ -1,4 +1,4 @@
-// Inherit the parent event
+/*// Inherit the parent event
 event_inherited();
 
 if(!hasTalked){
@@ -7,4 +7,4 @@ if(!hasTalked){
 		dialog.add("sc f2 l2");
 		hasTalked = true;
 	}
-}
+}*/
