@@ -3,7 +3,7 @@ event_inherited();
 show_text = true;
 
 text_index = 0;
-displayText = ["Was that me? I look so… happy.",
+displayText = ["Was that me? I look so... happy.",
 			   "(A sudden pang of homesickness strikes.)",
 			   "Is that where I came from? Heaven?",
 			   "Why can't I remember anything about that place though?"];

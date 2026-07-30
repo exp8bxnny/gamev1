@@ -84,6 +84,7 @@
     {"id":{"name":"obj_startbutton","path":"objects/obj_startbutton/obj_startbutton.yy",},},
     {"id":{"name":"obj_statueParent","path":"objects/obj_statueParent/obj_statueParent.yy",},},
     {"id":{"name":"obj_wake","path":"objects/obj_wake/obj_wake.yy",},},
+    {"id":{"name":"Object50","path":"objects/Object50/Object50.yy",},},
     {"id":{"name":"pillar1obj","path":"objects/pillar1obj/pillar1obj.yy",},},
     {"id":{"name":"pinetree1obj","path":"objects/pinetree1obj/pinetree1obj.yy",},},
     {"id":{"name":"pinetree2obj","path":"objects/pinetree2obj/pinetree2obj.yy",},},
