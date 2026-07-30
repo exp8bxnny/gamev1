@@ -1,7 +1,7 @@
 if (showing_dialog == true) {
 	//show_debug_message("gui drawing");
-	var text_x = 220;
-	var text_y = display_get_gui_height() - 165;
+	var text_x = 120;
+	var text_y = display_get_gui_height() - 155;
 	var border = 5;
 	var padding = 16;
 	var height = 768;
@@ -25,8 +25,9 @@ if (showing_dialog == true) {
 	//draw_rectangle((border * 2), (border * 2), display_get_gui_width() - (border * 2), height - (border * 2), false);
 	
 	draw_set_color(c_white);
-	draw_set_font(-1);
-	draw_text_ext(text_x, text_y, current_dialog.message, 30, 950);
+	//draw_text_ext_transformed(x, y, "Dynamically Scaled Text", 0.75, 0)
+	draw_set_font(dogica);
+	draw_text_ext_transformed(text_x, text_y, current_dialog.message, 40, display_get_gui_width(), 0.8, 0.8, 0);
 	
 	//alpha = lerp(alpha, 1, 0.06);
 }

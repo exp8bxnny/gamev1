@@ -38,7 +38,7 @@
   },
   "name":"did it hurt when you fell from heaven (1)",
   "resources":[
-    {"id":{"name":"font_arial20","path":"fonts/font_arial20/font_arial20.yy",},},
+    {"id":{"name":"dogica","path":"fonts/dogica/dogica.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
     {"id":{"name":"dialogParent","path":"objects/dialogParent/dialogParent.yy",},},
     {"id":{"name":"flippeduphilldirtobj","path":"objects/flippeduphilldirtobj/flippeduphilldirtobj.yy",},},
