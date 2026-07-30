@@ -12,14 +12,14 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"tilemap",
-    "path":"folders/tilemap.yy",
+    "name":"officialtilemaps",
+    "path":"folders/officialtilemaps.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"GrassTilesetOfficial50",
-    "path":"sprites/GrassTilesetOfficial50/GrassTilesetOfficial50.yy",
+    "name":"GrassTilesetOfficial",
+    "path":"sprites/GrassTilesetOfficial/GrassTilesetOfficial.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

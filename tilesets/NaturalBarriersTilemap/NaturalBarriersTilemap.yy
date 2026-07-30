@@ -12,14 +12,14 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"tilemap",
-    "path":"folders/tilemap.yy",
+    "name":"officialtilemaps",
+    "path":"folders/officialtilemaps.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"NaturalBarriersTilesetOfficial51",
-    "path":"sprites/NaturalBarriersTilesetOfficial51/NaturalBarriersTilesetOfficial51.yy",
+    "name":"NaturalBarriersTilesetOfficial",
+    "path":"sprites/NaturalBarriersTilesetOfficial/NaturalBarriersTilesetOfficial.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

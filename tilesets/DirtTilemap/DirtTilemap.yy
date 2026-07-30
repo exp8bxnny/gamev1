@@ -12,14 +12,14 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"tilemap",
-    "path":"folders/tilemap.yy",
+    "name":"officialtilemaps",
+    "path":"folders/officialtilemaps.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"DirtTileset48",
-    "path":"sprites/DirtTileset48/DirtTileset48.yy",
+    "name":"DirtTileset",
+    "path":"sprites/DirtTileset/DirtTileset.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
