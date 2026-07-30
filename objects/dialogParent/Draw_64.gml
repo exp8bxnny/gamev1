@@ -27,7 +27,7 @@ if (showing_dialog == true) {
 	draw_set_color(c_white);
 	//draw_text_ext_transformed(x, y, "Dynamically Scaled Text", 0.75, 0)
 	draw_set_font(dogica);
-	draw_text_ext_transformed(text_x, text_y, current_dialog.message, 40, display_get_gui_width(), 0.8, 0.8, 0);
+	draw_text_ext_transformed(text_x, text_y, current_dialog.message, 50, display_get_gui_width(), 0.8, 0.8, 0);
 	
 	//alpha = lerp(alpha, 1, 0.06);
 }
