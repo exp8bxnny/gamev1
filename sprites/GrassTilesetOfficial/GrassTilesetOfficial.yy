@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":319,
   "bbox_left":0,
-  "bbox_right":372,
+  "bbox_right":371,
   "bbox_top":26,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1e5cb48a-3e93-472f-848f-9897bf90c9f0","name":"1e5cb48a-3e93-472f-848f-9897bf90c9f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"daa2ad08-eaaf-4816-8807-0c279f41778a","name":"daa2ad08-eaaf-4816-8807-0c279f41778a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":320,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"4a7280e4-c666-41bc-ba40-d0048ef2e977","blendMode":0,"displayName":"default","isLocked":false,"name":"4a7280e4-c666-41bc-ba40-d0048ef2e977","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4a7d3e7b-feb3-4b75-ad64-5a063f50246c","blendMode":0,"displayName":"default","isLocked":false,"name":"4a7d3e7b-feb3-4b75-ad64-5a063f50246c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"GrassTilesetOfficial",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e5cb48a-3e93-472f-848f-9897bf90c9f0","path":"sprites/GrassTilesetOfficial/GrassTilesetOfficial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"838fc987-7667-447b-b8c4-c861c0baec52","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"daa2ad08-eaaf-4816-8807-0c279f41778a","path":"sprites/GrassTilesetOfficial/GrassTilesetOfficial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b2337697-4f62-4ee8-8007-60d15dd3cf80","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

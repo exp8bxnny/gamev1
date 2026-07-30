@@ -10,7 +10,7 @@ if(keyboard_check_pressed(ord("Z"))){
 	} else {
 		show_text = false;
 		obj_player.x = 5160;
-		obj_player.y = 2560;
+		obj_player.y = 2595;
 		room_goto(rm_s2_acc);
 		//instance_destroy();
 	}

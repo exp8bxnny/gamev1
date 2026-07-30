@@ -9,8 +9,8 @@ if(keyboard_check(vk_shift)){
 // Horizontal collision
 if(x <= 0){
 	x++;
-} else if (x >= 1280){
-	x--;
+} else if (x >= 1360){
+	room_goto(rm_s2_acc);
 } else {
 	x+=move_x;
 }

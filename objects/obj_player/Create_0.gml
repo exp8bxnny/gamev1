@@ -16,4 +16,5 @@ global.featherf5Collected = false;
 global.cat_defeated = false;
 global.bully_defeated = false;
 global.statueDone = false;
+global.slidingDone = false;
 //f1SceneDone = false;
