@@ -310,7 +310,7 @@ else if (battle_state == "victory")
             global.twin_defeated = true;
 
             // Return to the overworld
-            room_goto(rm_s4_e3end);
+            room_goto(rm_s5_end1);
         }
     }
 }

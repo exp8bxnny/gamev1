@@ -1,0 +1,1 @@
+wall_tilemap = layer_tilemap_get_id("CollisionSprites");

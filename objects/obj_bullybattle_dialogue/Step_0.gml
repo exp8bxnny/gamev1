@@ -308,7 +308,7 @@ else if (battle_state == "victory")
             // Return to the overworld
 			obj_player.x = 1571;
 			obj_player.y = 1604;
-            room_goto(rm_s2_acc);
+            room_goto(rm_main);
         }
     }
 }

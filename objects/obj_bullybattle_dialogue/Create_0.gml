@@ -2,7 +2,7 @@
 battle_state = "dialogue";
 
 // Dialogue
-dialogue_text = "* The bully blocks your path.";
+dialogue_text = "* Your childhood bully blocks your path.";
 visible_characters = 0;
 characters_per_second = 30;
 dialogue_finished = false;

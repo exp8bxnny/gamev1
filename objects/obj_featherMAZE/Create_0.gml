@@ -1,2 +1,2 @@
-image_alpha = 100;
-show_text = false;
+image_xscale = 0.7;
+image_yscale = 0.7;

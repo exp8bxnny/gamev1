@@ -8,13 +8,8 @@ if(keyboard_check_pressed(ord("Z"))){
 		spriteIndex++;
 	} else {
 		show_text = false;
-		obj_player.x = 3494;
-		obj_player.y = 774;
-		room_goto(rm_s2_acc);
-		
-		//instance_destroy();
+		obj_player.x = 3268;
+		obj_player.y = 772;
+		room_goto(rm_main);
 	}
-
-	global.featherf1Collected = true;
-	global.textf1Done = true;
 }

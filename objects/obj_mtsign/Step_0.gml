@@ -9,7 +9,3 @@ if ((place_meeting(x, y, obj_player))) {
 		hasTalked = true;
 	}
 }
-
-if(hasTalked && talkZCount > 2){
-	room_goto(rm_s2_acc);
-}

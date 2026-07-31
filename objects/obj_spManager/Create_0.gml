@@ -6,5 +6,3 @@ global.check5 = false;
 global.check6 = false;
 global.check7 = false;
 global.check8 = false;
-
-global.slidingDone = false;

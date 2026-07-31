@@ -6,9 +6,9 @@ if(keyboard_check_pressed(ord("Z"))){
 		text_index++;
 	} else {
 		show_text = false;
-		obj_player.x = 3450;
-		obj_player.y = 4700;
-		room_goto(rm_s2_acc);
+		obj_player.x = 4128;
+		obj_player.y = 4352;
+		room_goto(rm_main);
 	}
 }
 

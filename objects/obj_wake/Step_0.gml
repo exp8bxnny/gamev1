@@ -9,10 +9,5 @@ if(keyboard_check_pressed(ord("Z"))){
 	} else {
 		show_text = false;
 		room_goto(rm_s1);
-		
-		//instance_destroy();
 	}
-
-	global.featherf1Collected = true;
-	global.textf1Done = true;
 }

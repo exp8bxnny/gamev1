@@ -15,7 +15,7 @@ var enemy_left = enemy_right - health_width;
 var enemy_percentage = enemy_hp / enemy_max_hp;
 
 // twin sprite
-draw_sprite_ext(twinSprite, -1, 400, 100, 3, 3, 0, -1, twin_alpha);
+draw_sprite_ext(twinSprite, -1, 200, 0, 1, 1, 0, -1, twin_alpha);
 
 draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);

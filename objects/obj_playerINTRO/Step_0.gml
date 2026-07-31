@@ -10,7 +10,7 @@ if(keyboard_check(vk_shift)){
 if(x <= 0){
 	x++;
 } else if (x >= 1360){
-	room_goto(rm_s2_acc);
+	room_goto(rm_main);
 } else {
 	x+=move_x;
 }

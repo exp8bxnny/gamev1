@@ -46,8 +46,6 @@
   "name":"did it hurt when you fell from heaven (1)",
   "resources":[
     {"id":{"name":"dogica","path":"fonts/dogica/dogica.yy",},},
-    {"id":{"name":"dogica1","path":"fonts/dogica1/dogica1.yy",},},
-    {"id":{"name":"dogica2","path":"fonts/dogica2/dogica2.yy",},},
     {"id":{"name":"font_arial20","path":"fonts/font_arial20/font_arial20.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
     {"id":{"name":"angelstatue1obj","path":"objects/angelstatue1obj/angelstatue1obj.yy",},},
@@ -275,8 +273,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_s4_f5","path":"rooms/rm_s4_f5/rm_s4_f5.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
+    {"roomId":{"name":"rm_s4_f5","path":"rooms/rm_s4_f5/rm_s4_f5.yy",},},
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_s4_f4","path":"rooms/rm_s4_f4/rm_s4_f4.yy",},},
     {"roomId":{"name":"rm_s3_f2_maze","path":"rooms/rm_s3_f2_maze/rm_s3_f2_maze.yy",},},

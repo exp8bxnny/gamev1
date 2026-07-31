@@ -5,7 +5,7 @@ twinSprite = spr_twin1;
 battle_state = "dialogue";
 
 // Dialogue
-dialogue_text = "* The twin blocks your path.";
+dialogue_text = "* Your twin blocks your path.";
 visible_characters = 0;
 characters_per_second = 30;
 dialogue_finished = false;
@@ -46,7 +46,7 @@ attack_fall_speed = 1.5;
 hurt_timer = 0;
 
 player_name = "YOU";
-enemy_name = "TWIN";
+enemy_name = "?";
 
 // twin
 twin_alpha = 1;

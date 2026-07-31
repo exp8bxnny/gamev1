@@ -1,7 +1,3 @@
-if(global.statueDone){
-	global.featherf4Collected = true;
-
-	if(keyboard_check(ord("Z"))){
-		room_goto(rm_s4_f4_sliding);
-	}
-}
+obj_player.x = 664
+obj_player.y = 215
+room_goto(rm_s3_f2_maze);

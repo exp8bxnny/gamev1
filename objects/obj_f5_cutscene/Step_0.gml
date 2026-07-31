@@ -10,9 +10,8 @@ if(keyboard_check_pressed(ord("Z"))){
 		text_index++;
 	} else {
 		show_text = false;
-		obj_player.x = 2850;
-		obj_player.y = 4071;
-		room_goto(rm_s2_acc);
+		instance_destroy(obj_player);
+		room_goto(rm_s4_e3battle);
 		
 		//instance_destroy();
 	}

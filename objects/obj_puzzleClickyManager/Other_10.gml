@@ -15,9 +15,9 @@ if (current_ring < 3) {
             rings[current_ring].is_active = true;
         } else {
 			global.statueDone = true;
-			obj_player.x = 3543;
-			obj_player.y = 772;
-			room_goto(rm_s2_acc);
+			obj_player.x = 3350;
+			obj_player.y = 773;
+			room_goto(rm_main);
             show_debug_message("Statue Puzzle Complete!");
         }
         
