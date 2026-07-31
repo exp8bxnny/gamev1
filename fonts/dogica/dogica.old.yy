@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"font_arial20",
+  "%Name":"dogica",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":25,
@@ -206,7 +206,7 @@
   "last":0,
   "lineHeight":31,
   "maintainGms1Font":false,
-  "name":"font_arial20",
+  "name":"dogica",
   "parent":{
     "name":"fonts",
     "path":"folders/fonts.yy",
