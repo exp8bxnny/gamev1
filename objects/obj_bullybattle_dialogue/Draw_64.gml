@@ -14,8 +14,8 @@ var enemy_right = gui_width - 30;
 var enemy_left = enemy_right - health_width;
 var enemy_percentage = enemy_hp / enemy_max_hp;
 
-// bully sprite
-draw_sprite_ext(spr_bullyEVIL, -1, 400, 100, 3, 3, 0, -1, bully_alpha);
+// enemy sprite
+draw_sprite_ext(spr_bullyEVIL, -1, 400, 100, 3, 3, 0, -1, enemy_alpha);
 
 draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
@@ -210,8 +210,8 @@ if (
         );
     }
 }
-// BULLY'S TURN
-else if (battle_state == "bully_attack")
+// enemy'S TURN
+else if (battle_state == "enemy_attack")
 {
     var arena_left = gui_width * 0.20;
     var arena_right = gui_width * 0.80;
@@ -243,32 +243,31 @@ else if (battle_state == "bully_attack")
     // Flash when damaged
     if (hurt_timer <= 0 || floor(hurt_timer * 12) mod 2 == 0)
     {
-        draw_set_color(c_red);
-
-        draw_rectangle(
-            player_x - player_size / 2,
-            player_y - player_size / 2,
-            player_x + player_size / 2,
-            player_y + player_size / 2,
-            false
-        );
+		//draw_sprite_ext(spr_playerFront);
+		if(keyboard_check(vk_left)){
+			draw_sprite(spr_playerLeft, -1, player_x - player_size, player_y - player_size);
+		} else if(keyboard_check(vk_right)){
+			draw_sprite(spr_playerRight, -1, player_x - player_size, player_y - player_size);
+		} else {
+			draw_sprite(spr_playerFront, -1, player_x - player_size, player_y - player_size);
+		}
     }
 
-    // Falling bully attacks
+    // Falling enemy attacks
     draw_set_color(c_red);
 
-    for (var i = 0; i < array_length(bully_attack_y); i++)
+    for (var i = 0; i < array_length(enemy_attack_y); i++)
     {
         var falling_x = lerp(
             arena_left,
             arena_right,
-            bully_attack_x[i]
+            enemy_attack_x[i]
         );
 
         var falling_y = lerp(
             arena_top,
             floor_y + attack_size,
-            bully_attack_y[i]
+            enemy_attack_y[i]
         );
 
         draw_rectangle(

@@ -10,5 +10,6 @@ if(keyboard_check_pressed(ord("Z"))){
 		text_index++;
 	} else {
 		show_text = false;
-		end;
+		room_goto(rm_theEnd);
+	}
 }

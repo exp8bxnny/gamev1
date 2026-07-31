@@ -4,11 +4,11 @@ if (input_delay > 0)
     input_delay--;
 }
 
-// bully sprite transparency
+// enemy sprite transparency
 if(battle_state == "enemy_attack"){
-	bully_alpha = 0;
+	enemy_alpha = 0;
 } else {
-	bully_alpha = 1;
+	enemy_alpha = 1;
 }
 
 // DIALOGUE STATE
@@ -56,7 +56,7 @@ else if (battle_state == "attack")
         var distance_from_middle = abs(attack_position - 0.5);
 
         // 30 damage in the exact center, less toward the edges
-        damage = round(200 * (1 - distance_from_middle * 2));
+        damage = round(30 * (1 - distance_from_middle * 2));
         damage = max(0, damage);
 		enemy_hp -= damage;
 		enemy_hp = max(0, enemy_hp);
@@ -130,7 +130,7 @@ else if (battle_state == "result")
 	        else
 	        {
 	            // Enemy has been defeated
-				dialogue_text = "* You defeated the bully!";
+				dialogue_text = "* You defeated the enemy!";
 	            visible_characters = 0;
 	            dialogue_finished = false;
 	            battle_state = "victory";

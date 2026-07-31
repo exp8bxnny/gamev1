@@ -20,8 +20,8 @@ player_hp = 100;
 player_max_hp = 100;
 
 // Enemy health
-enemy_hp = 100;
-enemy_max_hp = 100;
+enemy_hp = 80;
+enemy_max_hp = 80;
 
 // Cat attack state
 cat_turn_length = 6;
@@ -37,7 +37,7 @@ cat_attack_y = [];
 
 attack_spawn_timer = 0;
 attack_spawn_delay = 0.1;
-attack_fall_speed = 1.5;
+attack_fall_speed = 1;
 
 // Brief protection after taking damage
 hurt_timer = 0;

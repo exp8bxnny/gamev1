@@ -2,7 +2,7 @@
 battle_state = "dialogue";
 
 // Dialogue
-dialogue_text = "* Your childhood bully blocks your path.";
+dialogue_text = "* The enemy blocks your path.";
 visible_characters = 0;
 characters_per_second = 30;
 dialogue_finished = false;
@@ -23,7 +23,7 @@ player_max_hp = 100;
 enemy_hp = 100;
 enemy_max_hp = 100;
 
-// Enemy attack state
+// enemy attack state
 enemy_turn_length = 6;
 enemy_turn_timer = enemy_turn_length;
 
@@ -37,14 +37,14 @@ enemy_attack_y = [];
 
 attack_spawn_timer = 0;
 attack_spawn_delay = 0.1;
-attack_fall_speed = 0.8;
+attack_fall_speed = 1.25;
 
 // Brief protection after taking damage
 hurt_timer = 0;
 
 player_name = "YOU";
-enemy_name = "BULLY";
+enemy_name = "enemy";
 
-// BULLY
+// Elyse
 enemy_alpha = 1;
-global.bully_defeated = false;
+global.enemy_defeated = false;

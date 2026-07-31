@@ -10,11 +10,12 @@
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRTileLayer":"","%Name":"GrassTiles","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"GrassTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":43,"TileCompressedData":[
-          -387,-2147483648,-43,2,-86,14,-183,-2147483648,1,0,-40,-2147483648,3,0,-2147483648,0,-7,-2147483648,
-          1,0,-23,-2147483648,-2,0,-4,-2147483648,-2,0,4,-2147483648,0,-2147483648,0,-5,-2147483648,-4,0,-3,-2147483648,
-          -2,0,-17,-2147483648,-184,0,1,-2147483648,-4,0,1,-2147483648,-4,0,-5,-2147483648,-2,0,1,-2147483648,
-          -3,0,1,-2147483648,-4,0,-5,-2147483648,
+    {"$GMRTileLayer":"","%Name":"GrassTiles","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"GrassTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":60,"TileCompressedData":[
+          -540,-2147483648,-60,2,-120,14,-251,-2147483648,1,0,-57,-2147483648,3,0,-2147483648,0,-7,-2147483648,
+          1,0,-40,-2147483648,-2,0,-4,-2147483648,-2,0,4,-2147483648,0,-2147483648,0,-5,-2147483648,-4,0,-3,-2147483648,
+          -2,0,-34,-2147483648,-43,0,-17,-2147483648,-43,0,-17,-2147483648,-43,0,-17,-2147483648,-43,0,-17,-2147483648,
+          -12,0,1,-2147483648,-4,0,1,-2147483648,-4,0,-5,-2147483648,-2,0,1,-2147483648,-3,0,1,-2147483648,-4,
+          0,-22,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"GrassTilemap","path":"tilesets/GrassTilemap/GrassTilemap.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_14E781D1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14E781D1","objectId":{"name":"obj_playerINTRO","path":"objects/obj_playerINTRO/obj_playerINTRO.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":288.0,},
@@ -40,7 +41,7 @@
     "Height":768,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1366,
+    "Width":1920,
   },
   "sequenceId":null,
   "views":[

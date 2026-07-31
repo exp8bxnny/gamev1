@@ -56,3 +56,18 @@ if (((place_meeting(x, y, obj_player)) && count == 4)) {
 	count++;
 		
 }
+
+
+	if ((place_meeting(x, y, obj_player)) && count == 3) {
+		dialog.add("...Left behind to die.");
+		dialog.add("I would hate me too.");
+		count++;
+		x = 5120;
+		y = 2656;
+		
+	}
+	if (((place_meeting(x, y, obj_player)) && count == 4)) {
+		dialog.add("Huh? What's that?");
+		count++;
+		
+	}

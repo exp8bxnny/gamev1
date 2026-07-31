@@ -23,8 +23,8 @@ player_hp = 100;
 player_max_hp = 100;
 
 // Enemy health
-enemy_hp = 100;
-enemy_max_hp = 100;
+enemy_hp = 150;
+enemy_max_hp = 150;
 
 // twin attack state
 twin_turn_length = 6;
