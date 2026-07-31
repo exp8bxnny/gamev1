@@ -1,0 +1,1 @@
+audio_play_sound(regularbattlemusic, 10, true);

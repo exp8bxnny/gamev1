@@ -1,5 +1,13 @@
-if(sprite_index == spr_end3){
-	sprite_index = spr_end3glitch;
+if(animate = true){
+	if(sprite_index == spr_end3){
+		sprite_index = spr_end3glitch;
+	} else {
+		sprite_index = spr_end3;
+	}
 } else {
-	sprite_index = spr_end3;
+	if(sprite_index == red){
+		sprite_index = black;
+	} else {
+		sprite_index = red;
+	}
 }

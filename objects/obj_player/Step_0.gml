@@ -29,7 +29,7 @@ if (!place_meeting(x, y + move_y, wall_tilemap))
 
 // Shift for speed up
 if(keyboard_check(vk_shift)){
-	move_speed = 10;
+	move_speed = 5;
 } else {
 	move_speed = 2;
 }

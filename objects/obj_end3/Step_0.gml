@@ -10,6 +10,11 @@ if(keyboard_check_pressed(ord("Z"))){
 		text_index++;
 	} else {
 		show_text = false;
-		room_goto(rm_theEnd);
+		animate = false;
+		if(talkZCount > 4){
+			room_goto(rm_theEnd);
+		}
 	}
+	
+	talkZCount++;
 }

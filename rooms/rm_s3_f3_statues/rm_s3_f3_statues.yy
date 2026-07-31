@@ -19,6 +19,7 @@
     {"name":"inst_76E4A84E","path":"rooms/rm_s3_f3_statues/rm_s3_f3_statues.yy",},
     {"name":"inst_2080CFB7","path":"rooms/rm_s3_f3_statues/rm_s3_f3_statues.yy",},
     {"name":"inst_3BD66F54","path":"rooms/rm_s3_f3_statues/rm_s3_f3_statues.yy",},
+    {"name":"inst_44E1579B","path":"rooms/rm_s3_f3_statues/rm_s3_f3_statues.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -35,6 +36,7 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_17D9D2CD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17D9D2CD","objectId":{"name":"pillar1obj","path":"objects/pillar1obj/pillar1obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":64.0,"y":128.0,},
         {"$GMRInstance":"v4","%Name":"inst_7C6E1E92","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C6E1E92","objectId":{"name":"pillar1obj","path":"objects/pillar1obj/pillar1obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":512.0,"y":128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_44E1579B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44E1579B","objectId":{"name":"obj_mtMusic","path":"objects/obj_mtMusic/obj_mtMusic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"InstancesLower","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_63111C11","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63111C11","objectId":{"name":"pinetree2obj","path":"objects/pinetree2obj/pinetree2obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":64.0,"y":-96.0,},
