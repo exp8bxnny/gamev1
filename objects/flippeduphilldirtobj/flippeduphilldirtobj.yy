@@ -6,8 +6,8 @@
   "name":"flippeduphilldirtobj",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"officialobjs",
+    "path":"folders/officialobjs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -8,8 +8,8 @@ if(keyboard_check_pressed(ord("Z"))){
 		spriteIndex++;
 	} else {
 		show_text = false;
-		obj_player.x = 3280;
-		obj_player.y = 5100;
+		obj_player.x = 3270;
+		obj_player.y = 4824;
 		room_goto(rm_s2_acc);
 		
 		//instance_destroy();

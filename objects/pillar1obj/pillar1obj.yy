@@ -6,8 +6,8 @@
   "name":"pillar1obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"did it hurt when you fell from heaven (1)",
-    "path":"did it hurt when you fell from heaven (1).yyp",
+    "name":"officialobjs",
+    "path":"folders/officialobjs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
