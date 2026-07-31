@@ -5,6 +5,6 @@ if(global.statueDone){
 	image_alpha = 0;
 }
 
-if(global.featherf3Collected){
+if(global.featherf4Collected){
 	instance_destroy();
 }

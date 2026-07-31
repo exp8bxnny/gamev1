@@ -306,7 +306,9 @@ else if (battle_state == "victory")
             global.bully_defeated = true;
 
             // Return to the overworld
-            room_goto(rm_s3_e2end);
+			obj_player.x = 1571;
+			obj_player.y = 1604;
+            room_goto(rm_s2_acc);
         }
     }
 }

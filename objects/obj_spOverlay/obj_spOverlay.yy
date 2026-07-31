@@ -32,5 +32,5 @@
     "path":"sprites/overlay_sprite/overlay_sprite.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

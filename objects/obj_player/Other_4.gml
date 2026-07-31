@@ -1,4 +1,4 @@
-wall_tilemap = layer_tilemap_get_id("Walls");
+wall_tilemap = layer_tilemap_get_id("Collision");
 
 if (instance_number(object_index) > 1) {
     instance_destroy();
@@ -10,7 +10,8 @@ if(room = rm_s2_f1){
 	show_debug_message("f1scDone true");
 }
 
-if (room == rm_s2_e1end || room == rm_s2_e1battle) {
+if (room == rm_s2_e1battle || room == rm_s2_e1end || 
+    room == rm_s3_e2battle) {
     visible = false;
 } else {
     visible = true;
@@ -26,8 +27,3 @@ if(room == newrm_maze){
 	image_xscale = 1;
 	image_yscale = 1;
 }
-
-/*if(room != rm_s3_f2_maze){
-	x = 50;
-	y = 50;
-}*/
